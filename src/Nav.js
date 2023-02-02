@@ -18,16 +18,16 @@ export default function Nav() {
    }, [])
 
    return (
-      <div className={`nav ${show && 'nav_black'}`}>
-         <div className="nav_contents">
+      <div className={`nav ${show && 'nav__black'}`}>
+         <div className="nav__contents">
             <img
-               className="nav_logo"
+               className="nav__logo"
                src="http://assets.stickpng.com/images/580b57fcd9996e24bc43c529.png"
                alt=""
             />
 
             <img
-               className="nav_avatar"
+               className="nav__avatar"
                src="https://i.pinimg.com/474x/c6/6a/73/c66a732387c737fa97526841cbdc0938.jpg"
                alt=""
             />
